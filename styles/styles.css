@@ -132,8 +132,8 @@ section{
 }
 .card{
     height: 440px;
-    width: 80%;
-    max-width: 550px;
+    width: 28vw;
+    max-width: 650px;
     background: #f5f5f5;
     border-radius: 20px;
     flex-direction: column;
