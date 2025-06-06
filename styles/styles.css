@@ -276,7 +276,14 @@ i{
     flex-direction: column;
     /* gap:10px; */
 }
+.contact-form form{
+    width: 100%;
+}
+.contact-form h2:nth-of-type(2){
+margin-bottom:30px;
+}
 form{
+    width: 42%;
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
@@ -286,7 +293,7 @@ form{
 form button{
     width: 95%;
     background: black;
-    margin: auto;
+    margin:15px auto auto;
     color:white;
     font-size: 1rem;
     border-radius: 10px;
@@ -299,7 +306,7 @@ input{
     border-radius: 10px;
     margin:10px auto;
 }
-textarea{
+textarea,.message{
     width: 95%;
     height: 200px;
     border-radius: 10px;
